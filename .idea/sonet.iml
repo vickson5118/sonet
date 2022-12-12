@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
+    <orderEntry type="library" name="uploadfile" level="application" />
+    <orderEntry type="library" name="tinymce" level="application" />
+    <orderEntry type="library" name="jquery.uploadfile" level="application" />
+    <orderEntry type="module" module-name="evod" />
+    <orderEntry type="library" name="slick" level="application" />
+    <orderEntry type="library" name="tinymce" level="application" />
+    <orderEntry type="library" name="uploadfile" level="application" />
+    <orderEntry type="library" name="jquery-ui" level="application" />
+    <orderEntry type="library" name="jquery.uploadfile" level="application" />
+    <orderEntry type="library" name="semantic" level="application" />
+    <orderEntry type="library" name="default" level="application" />
+    <orderEntry type="library" name="alertify" level="application" />
+    <orderEntry type="library" name="bootstrap-icons" level="application" />
+    <orderEntry type="library" name="bootstrap" level="application" />
+    <orderEntry type="library" name="boxicons" level="application" />
+    <orderEntry type="library" name="jquery" level="application" />
+  </component>
+</module>

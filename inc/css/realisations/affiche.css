@@ -1,0 +1,135 @@
+.realisation-header{
+	position: relative;
+	top: 0;
+}
+
+.realisation-header-cover{
+	width: 100%;
+	height: 450px;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.realisation-header h1{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	width: 35%;
+	left: 32.5%;
+	font-weight: bold;
+	text-align: center;
+	position: absolute;
+	background-color: #183c5c;
+	bottom: 0;
+	color: white;
+	margin: 0;
+	padding: 20px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+/***************************DESCRIPTION****************************/
+.realisation-info-container{
+	margin-top: 50px;
+}
+
+.realisation-info-container .info-content{
+	margin-bottom: 50px;
+}
+
+.realisation-info-container .one-info{
+	border: 1px solid #eee;
+	text-align: center;
+	padding-top: 15px;
+	width: 23%;
+	margin: 0 auto;
+	box-shadow: 1px 0 12px 0 rgba(0,0,0,0.75);
+	-webkit-box-shadow: 1px 0 12px 0 rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 0 12px 0 rgba(0,0,0,0.75);
+	border-radius: 5px;
+}
+
+.realisation-info-container .one-info p:nth-child(1) {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #233D56;
+}
+
+.realisation-info-container .one-info p:nth-child(2) {
+	font-size: 15px;
+}
+
+/*********************DESCRIPTION*************************/
+.description-container{
+	background-color: #183c5c;
+	padding: 40px;
+	color: #fff;
+	margin-bottom: 40px;
+}
+
+.description-container h2,
+.objectif-container h2,
+.images-container h2,
+.resultats-container h2{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+/*********************************MISSIONS*****************************/
+.objectif-container h2{
+	color: black;
+}
+
+.objectif-container{
+	background-color: #EEE;
+	padding: 40px;
+	margin-bottom: 50px;
+}
+
+.description-container p,
+.objectif-container p{
+	font-size: 15px;
+}
+
+
+/******************************RESULTATS******************************/
+.resultats-container {
+	padding: 40px;
+	background-color: #EEE;
+	margin-bottom: 50px;
+}
+
+.resultats-container h2{
+	color: black;
+}
+
+/**********************IMAGES***********************/
+.images-container{
+	margin-bottom: 50px;
+}
+
+.images-container h2{
+	color: black;
+}
+
+.images-container img{
+	width: 410px;
+	height: 230px;
+	margin-right: 19px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1399px){
+	.images-container img{
+		width: 350px;
+		margin-right: 17px;
+	}
+}
+
+
+

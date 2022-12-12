@@ -1,0 +1,30 @@
+RewriteEngine on
+
+RewriteRule ^presentation$ components/other/presentation.php
+RewriteRule ^contactez-nous$ components/other/contactez_nous.php
+
+RewriteRule ^realisations$ components/realisations/home.php
+RewriteRule ^realisations/en-cours$ components/realisations/en_cours.php
+RewriteRule ^realisations/terminees$ components/realisations/terminees.php
+RewriteRule ^realisations/(.+)$ components/realisations/affiche_realisation.php?url=$1
+
+RewriteRule ^domaines/agriculture$ components/domaines/agriculture.php
+RewriteRule ^domaines/foncier$ components/domaines/foncier.php
+RewriteRule ^domaines/formations$ components/domaines/formations.php
+RewriteRule ^domaines/appui-conseil$ components/domaines/appui.php
+
+
+RewriteRule ^compte/deconnexion/([0-9]+)$ validation/admin/compte/deconnexion.php
+
+
+
+#################ADMIN
+RewriteRule ^wps-admin$ components/admin/index.php
+RewriteRule ^wps-admin/tableau-de-bord$ components/admin/dashboard.php
+RewriteRule ^wps-admin/administrateurs$ components/admin/users/liste-admin.php
+RewriteRule ^wps-admin/projets$ components/admin/projets/liste-projet.php
+RewriteRule ^wps-admin/contacts$ components/admin/other/liste-contact.php
+RewriteRule ^wps-admin/contacts/([0-9]+)$ components/admin/other/view-mail.php?mail=$1
+RewriteRule ^wps-admin/partenaires$ components/admin/partenaires/liste-partenaire.php
+RewriteRule ^wps-admin/projets/creation/([0-9]+)$ components/admin/projets/creation-projet.php?id=$1
+

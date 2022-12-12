@@ -1,0 +1,74 @@
+.create-projet-container,
+.projet-file-container{
+	max-width: 60% !important;
+	-webkit-box-shadow: 0 2px 8px 2px rgb(28 29 31 / 15%);
+	-moz-box-shadow: 0 2px 8px 2px rgb(28 29 31 / 15%);
+	box-shadow: 0 2px 8px 2px rgb(28 29 31 / 15%);
+	margin-top: 70px;
+	padding: 40px;
+}
+
+.projet-file-container .one-projet-image{
+	width: 420px;
+	height: 230px;
+	display: inline-block;
+	margin-right: 60px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.projet-file-container img{
+	width: 410px;
+	height: 230px;
+}
+
+.projet-file-container .one-projet-image button{
+	outline: none;
+	border: none;
+	background-color: red;
+	position: absolute;
+}
+
+.projet-file-container .one-projet-image i{
+	font-size: 20px;
+	color: #fff;
+}
+
+.create-projet-container h1{
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.btn-add-client,
+.btn-add-lieu,
+.btn-add-domaine{
+	outline: none;
+	border: none;
+	margin-top: 37px;
+	margin-left: 10px;
+	padding: 0;
+	line-height: 0;
+}
+
+.btn-add-lieu,
+.btn-add-domaine{
+	margin-left: -8px;
+}
+
+.btn-add-client i,
+.btn-add-lieu i,
+.btn-add-domaine i{
+	font-size: 25px;
+}
+
+select {
+	height: 60px;
+}
+
+#btn-add-projet{
+	outline: none;
+	border: none;
+	padding: 15px;
+	background-color: #183C5C;
+	color: #fff;
+}

@@ -1,0 +1,138 @@
+
+.introduction-container{
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+
+.introduction-container .entrep-picture{
+	background-image: url("/inc/images/temp/home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.introduction-container h2,
+.chiffres-container h2,
+.comite-container h2,
+.organigramme-container h2,
+.dirigeants-container h2{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.introduction-container .introduction-texte{
+	font-size: 15px;
+}
+
+/*****************CHIFFRES*******************/
+.chiffres-container{
+	margin-bottom: 50px;
+	position: relative;
+	margin-top: 30px;
+}
+
+.chiffres-container .row{
+	margin-left: 0;
+}
+
+.chiffres-container .one-chiffre-state{
+	border: 1px solid #eee;
+	width: 300px;
+	/*margin: 0 auto;*/
+	margin-right: 120px;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	transition: all 0.1s;
+	height: 180px;
+}
+
+.chiffres-container .one-chiffre-state p:nth-child(2){
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+.chiffres-container .one-chiffre-state p:nth-child(3){
+	font-size: 15px;
+}
+
+.chiffres-container .one-chiffre-state:hover{
+	border: 7px solid #233d56;
+}
+
+/********COMMITE DE DIRECTION***************/
+.comite-container{
+	/*margin-bottom: 50px;*/
+	position: relative;
+	padding-bottom: 50px;
+}
+
+.comite-container .commite-content{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.comite-container .one-comite-dirigeant{
+	width: 350px;
+	height: 250px;
+	position: relative;
+	overflow: hidden;
+	padding: 0 !important;
+	margin: 0 auto 30px;
+}
+
+.comite-container .one-comite-dirigeant:first-child{
+	margin: 0 auto 30px;
+}
+
+.comite-container .one-comite-dirigeant img{
+	width: 350px;
+	height: 250px;
+	
+}
+
+.comite-container .one-comite-dirigeant:hover .one-comite-dirigeant-content{
+	bottom: 0;
+}
+
+.comite-container .one-comite-dirigeant .one-comite-dirigeant-content{
+	background-color: rgba(0,0,0);
+	opacity: 0.7;
+	position: absolute;
+	height: 60px;
+	left: 0;
+	right: 0;
+	color: white;
+	transition: all 0.5s;
+	bottom: -60px;
+	width: 430px;
+}
+
+.comite-container .one-comite-dirigeant .one-comite-dirigeant-content p{
+	margin: 0;
+	padding: 0 0 0 15px;
+}
+
+.comite-container .one-comite-dirigeant .one-comite-dirigeant-content p:first-child {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.comite-container .one-comite-dirigeant .one-comite-dirigeant-content p:nth-child(2) {
+	font-size: 14px;
+}
+
+
+
+/********ORGANIGRAMME*******************/
+.organigramme-container{
+	margin-bottom: 50px;
+	position: relative;
+}
+
+
