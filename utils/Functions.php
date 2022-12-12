@@ -358,7 +358,7 @@ class Functions{
         }
     }
 
-    /** créer un format de lien
+    /** Créer un format de lien
      * @param string|null $texte
      * @return string|null
      */

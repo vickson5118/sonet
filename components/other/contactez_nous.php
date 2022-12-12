@@ -34,11 +34,9 @@
 				
 					<div class="mapouter">
 						<div class="gmap_canvas">
-							<iframe width="620" height="650" id="gmap_canvas" src="https://maps.google.com/maps?q=5.392899982546324,%20-3.9761991612258245&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+							<iframe width="620" height="650" id="gmap_canvas" src="https://maps.google.com/maps?q=5.392899982546324,%20-3.9761991612258245&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
 							<a href="https://fmovies-online.net">fmovies</a><br>
-							<style>.mapouter{position:relative;text-align:right;height:650px;width:620px;}</style>
 							<a href="https://www.embedgooglemap.net">iframe html generator</a>
-							<style>.gmap_canvas {overflow:hidden;background:none!important;height:650px;width:620px;}</style>
 						</div>
 					</div>
 

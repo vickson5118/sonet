@@ -1,5 +1,5 @@
 
-//faire apparaitre un gif lorsqu'on click sur un btn'
+//faire apparaitre un gif lorsqu'on clique sur un btn'
 function gifLoader(selecteur) {
 	
 	const height = $(selecteur).css("height");
@@ -75,5 +75,4 @@ function telInputValidation(selector){
 		}
 	})
 }
-
 
